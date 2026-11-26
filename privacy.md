@@ -4,7 +4,7 @@ title: TrueLocale Privacy Policy
 
 # TrueLocale Privacy Policy
 
-Last updated: 13 November 2026 · [Türkçe](#türkçe)
+Last updated: 26 November 2026 · [Türkçe](#türkçe)
 
 TrueLocale is published by Hayri Odabaş ("we"). This policy explains what the TrueLocale iOS app and its server collect and why.
 
@@ -21,7 +21,7 @@ Pictures you translate are read and translated on your device by iOS. Neither th
 The camera is used only while you take a picture in the app. Pictures you take or choose are kept on your device, in the app's History, until you delete them there or delete the app. They are never uploaded.
 
 ## What leaves your device
-When you are signed in, a check also asks a language model to review the text. For that, only the text recognised on the picture, together with your target language, tone, app context and term list, is sent to our server to be checked by the model you chose. Pictures themselves never leave your device.
+If you sign in and allow AI review for the selected model, TrueLocale sends the recognized text and its positions, target and explanation languages, tone, app context and glossary terms to our server on Supabase for that review. Your screenshots and strings files stay on your device. You can revoke permission separately for each model in Settings.
 
 ## What we store
 - Your account identifier from Sign in with Apple, and the email address Apple shares with us (which may be a private relay address). An account is needed only for the model's review of a check.
@@ -31,7 +31,7 @@ When you are signed in, a check also asks a language model to review the text. F
 We do not store the recognised text or the reports. Reports stay on your device.
 
 ## Model providers
-For a check, text is processed by OpenCode Go and the provider of the model you pick. Muse Spark may use submitted text to train models; the app marks it in Settings. No other model is used for training.
+OpenCode Go processes the request with the provider of the selected model: DeepSeek, Xiaomi (MiMo), or Meta (Muse Spark). Muse Spark may use submitted text for model training.
 
 ## Purchases
 TrueLocale has no in-app purchases and no subscription.
@@ -55,7 +55,7 @@ TrueLocale is not directed at children under 13.
 
 ## Türkçe
 
-Son güncelleme: 13 Kasım 2026
+Son güncelleme: 26 Kasım 2026
 
 TrueLocale, Hayri Odabaş tarafından yayımlanır. Bu politika, TrueLocale iOS uygulamasının ve sunucusunun neleri topladığını ve nedenini açıklar.
 
@@ -67,11 +67,11 @@ TrueLocale, Hayri Odabaş tarafından yayımlanır. Bu politika, TrueLocale iOS 
 
 **Kamera ve fotoğraflar:** Kamera yalnızca uygulamada resim çektiğin sırada kullanılır. Çektiğin ya da seçtiğin resimler, sen Geçmiş'ten silene ya da uygulamayı silene kadar cihazında kalır; hiçbir yere yüklenmez.
 
-**Cihazından ne çıkar:** Giriş yaptıysan kontrol, metni bir dil modeline de inceletir. Bunun için, seçtiğin modelin incelemesi amacıyla sunucumuza yalnızca resimde tanınan metin; hedef dilin, tonun, uygulama bağlamın ve terim listenle birlikte gönderilir. Resimlerin kendisi cihazından hiç çıkmaz.
+**Cihazından ne çıkar:** Giriş yapıp seçtiğin modele izin verirsen TrueLocale, inceleme için tanınan metni ve ekrandaki konumlarını, hedef ve açıklama dillerini, hitap biçimini, uygulama bağlamını ve sözlük terimlerini Supabase üzerindeki sunucumuza gönderir. Ekran görüntülerin ve dize dosyaların cihazında kalır. İzni Ayarlar’dan her model için ayrı ayrı geri alabilirsin.
 
 **Neleri saklarız:** Apple ile Giriş'ten gelen hesap kimliğin ve Apple'ın paylaştığı e-posta adresi (gizli aktarma adresi olabilir; hesap yalnızca kontrolün model incelemesi için gerekir); günlük limit için her gün kaç kontrol yaptığın; kontrol başına istatistikler (model, hedef dil, puan, sorun sayısı, süre). Tanınan metni ve raporları saklamayız; raporlar cihazında kalır.
 
-**Model sağlayıcıları:** Kontrollerde metin, OpenCode Go ve seçtiğin modelin sağlayıcısı tarafından işlenir. Muse Spark gönderilen metni model eğitiminde kullanabilir; uygulama bunu Ayarlar'da belirtir.
+**Model sağlayıcıları:** İsteği OpenCode Go ve seçtiğin modelin sağlayıcısı işler: DeepSeek, Xiaomi (MiMo) veya Meta (Muse Spark). Muse Spark, gönderilen metni model eğitiminde kullanabilir.
 
 **Satın almalar:** TrueLocale'de uygulama içi satın alma ve abonelik yoktur.
 
