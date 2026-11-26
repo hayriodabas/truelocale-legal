@@ -31,7 +31,7 @@ If you sign in and allow AI review for the selected model, TrueLocale sends the 
 We do not store the recognised text or the reports. Reports stay on your device.
 
 ## Model providers
-OpenCode Go processes the request with the provider of the selected model: DeepSeek, Xiaomi (MiMo), or Meta (Muse Spark). Muse Spark may use submitted text for model training.
+OpenCode Go processes the request with the provider of the selected model: DeepSeek, Xiaomi (MiMo), or Meta (Muse Spark). OpenCode Go also receives a pseudonymous routing identifier derived from the account and selected model. Muse Spark may use submitted text for model training.
 
 ## Purchases
 TrueLocale has no in-app purchases and no subscription.
@@ -71,7 +71,7 @@ TrueLocale, Hayri Odabaş tarafından yayımlanır. Bu politika, TrueLocale iOS 
 
 **Neleri saklarız:** Apple ile Giriş'ten gelen hesap kimliğin ve Apple'ın paylaştığı e-posta adresi (gizli aktarma adresi olabilir; hesap yalnızca kontrolün model incelemesi için gerekir); günlük limit için her gün kaç kontrol yaptığın; kontrol başına istatistikler (model, hedef dil, puan, sorun sayısı, süre). Tanınan metni ve raporları saklamayız; raporlar cihazında kalır.
 
-**Model sağlayıcıları:** İsteği OpenCode Go ve seçtiğin modelin sağlayıcısı işler: DeepSeek, Xiaomi (MiMo) veya Meta (Muse Spark). Muse Spark, gönderilen metni model eğitiminde kullanabilir.
+**Model sağlayıcıları:** İsteği OpenCode Go ve seçtiğin modelin sağlayıcısı işler: DeepSeek, Xiaomi (MiMo) veya Meta (Muse Spark). OpenCode Go, yönlendirme için hesaptan ve seçili modelden türetilen bir takma kimlik de alır. Muse Spark, gönderilen metni model eğitiminde kullanabilir.
 
 **Satın almalar:** TrueLocale'de uygulama içi satın alma ve abonelik yoktur.
 
